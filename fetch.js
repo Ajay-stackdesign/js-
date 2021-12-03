@@ -15,7 +15,8 @@ function getData(){
         return response.json();
     }).then((data) => {
         console.log(data);
-    })
+    });
+    
 }
 console.log("hi");
 getData();
