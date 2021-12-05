@@ -1,13 +1,14 @@
-// const getData = () => {
-//     url = "ajay.txt"
-//     etch(url).then((response) => {
-//         console.log("data")
-//         return response.text();
-//     }).then((data) => {
-//         console.log(data);
-//     })
-// }
-// getData();
+const getData = () => {
+    url = "ajay.txt"
+    etch(url).then((response) => {
+        console.log("data")
+        return response.text();
+    }).then((data) => {
+        console.log(data);
+    })
+}
+console.log("run")
+getData();
 function getData(){
     console.log("inside a function")
     url = "https://api.github.com/users"
