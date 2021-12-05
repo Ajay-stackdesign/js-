@@ -50,4 +50,5 @@ let obj1 = new Year("tvs","bs6",2020);
 
 console.log("working")
 console.log(obj1.year_bio());
+console.log("working")
 
