@@ -1,17 +1,17 @@
-//A class is a type of function, but instead of using the keyword function to initiate it, we use the keyword class, and the properties are assigned inside a constructor() method.
+// A class is a type of function, but instead of using the keyword function to initiate it, we use the keyword class, and the properties are assigned inside a constructor() method.
 
-//classses :
+classses :
 
-// class Car{
-//     constructor(name){
-//         this.myName = name
-//     }
-// }
+class Car{
+    constructor(name){
+        this.myName = name
+    }
+}
 
-// const car1 = new Car ("ajay")
-// console.log(car1)
+const car1 = new Car ("ajay")
+console.log(car1)
 
-///method in classes
+/method in classes
 
 class Car{
     constructor(name,model){
@@ -47,4 +47,7 @@ class Year extends Car{
 
 let obj1 = new Year("tvs","bs6",2020);
 
+
+console.log("working")
 console.log(obj1.year_bio());
+
