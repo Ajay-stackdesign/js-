@@ -33,10 +33,12 @@ img{
     margin-top: 30px;
 }
 #header__bottom{
-    width: 600px;
+    position: relative;
+    left: -19.7px;
+    width: 640.1px;
 }
 ul{
-    width: 600px;
+
 }
 li{
     padding: 30px;
