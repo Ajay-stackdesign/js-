@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+}
+
+#canvas{
+    background: red;
+    height: 600px;
+    width: 100vw;
+}
+
+#btn{
+    background: rgb(196, 8, 8);
+    border: none;
+    outline-width: 0;
+    /* border: 2px solid rgb(155, 12, 12); */
+    margin-top: 40px;
+    margin-left: 40%;
+    padding: 20px;
+    border-radius: 20px;
+    color: whitesmoke;
+    cursor: pointer;
+}
+#btn:hover{
+    color: burlywood;
+    background: cadetblue;
+}
