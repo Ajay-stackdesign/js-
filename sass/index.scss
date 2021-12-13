@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+}
+@mixin flex{
+    display: flex;
+    align-items: center;
+}
+#container{
+    .header{
+        @include flex();
+        justify-content: space-between;
+        padding-right: 15px;
+        background-color: #ededed;
+        .header__left{
+            display: flex;
+            align-items: center;
+            flex: 1;
+            
+            img{
+                object-fit: contain;
+                height: 80px;
+            }
+        }
+        .header__right{
+            display: flex;
+            .header__rightLeft{
+                @include flex();
+            }
+            .header__rightMiddle{
+                @include flex();
+            }
+            .header__rightRight{
+                @include flex();
+            }
+        }
+    }
+}
