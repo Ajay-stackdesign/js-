@@ -1,0 +1,9 @@
+*{
+    margin: 0;
+}
+#contain{
+    background-color: yellowgreen;
+}
+.header__one{
+    color: white;
+}
