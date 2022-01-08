@@ -1,0 +1,24 @@
+{
+  "name": "javascript-es6",
+  "version": "1.0.0",
+  "main": "callback.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "node-fetch": "^3.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ajay-stackdesign/js-.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ajay-stackdesign/js-/issues"
+  },
+  "homepage": "https://github.com/Ajay-stackdesign/js-#readme",
+  "description": "ajay "
+}
