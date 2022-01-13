@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>appendchild</title>
+</head>
+<body>
+    <ul>
+        <li id="one" class="hot">fresh pigs</li>
+        <li id="two" class="hot">pine nuts</li>
+        <li id="three" class="hot">honey</li>
+        <li id="four" class="hot">balsmic vinegar</li>
+    </ul>
+    <!-- <script>
+        let element = document.createElement("li");
+        let text = document.createTextNode("dhaniya");
+        element.appendChild(text)
+        let position = document.getElementsByTagName("ul")[0]
+        position.appendChild(element)
+    </script> -->
+    <h1>hello world</h1>
+    <h1>hello ram</h1>
+    <script>
+        // create a element a store in a variable
+        // let element = document.createElement("p")
+        // // create a text and tore in a variable
+        // let text = document.createTextNode("kaise ho");
+        // // attach the text node to the new element 
+        // element.appendChild(text)
+        // // find the position where he element hould be addes
+        // let position = document.getElementsByTagName("h1")[0]
+        // // insert the new element into its position: 
+        // position.appendChild(element)
+
+        // let element = document.createElement("li");
+        // let text = document.createTextNode("hello")
+        // element.appendChild(text)
+        // let position =document.getElementsByTagName("ul")[0];
+        // position.appendChild(element)
+        let remove = document.getElementsByTagName("li")[3];
+        let remove1 = remove.parentNode;
+        remove1.removeChild(remove)
+
+        let add = document.createElement("li")
+        let text = document.createTextNode("balsmic vinegar");
+        add.appendChild(text);
+        let position = document.getElementsByTagName("ul")[0]
+        position.appendChild(add)
+
+        let remove11 = document.getElementsByTagName("li")[3]
+        let remove12= remove11.parentNode;
+        remove12.removeChild(remove11)
+
+        
+    </script>
+</body>
+</html>
