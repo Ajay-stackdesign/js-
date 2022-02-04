@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="demo"></p>
+    <button onclick="locdDoc()">click me</button>
+
+    <script>
+        const locdDoc = () => {
+            let xhttp = new XMLHttpRequest();
+            xhttp.onReadyStateChange = () => {
+                if(this.State == 4 && this.Status == 200 ){
+                    console.log("found")
+                    document.getElementById("demo").innerHTML = this.responseText;
+                }else if (this.state == 4 && this.status == 404){
+                    console.log("not found")
+                }
+            }
+            xhttp.open("GET","ajax_info.txt",true);
+            xhttp.send();
+        }
+    </script>
+</body>
+</html>
